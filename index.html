@@ -14,18 +14,26 @@
   <div class="container">
     <div class="row">
       <div class="col-4">
-        <h2 class="text-center">Consultando Unidadesx</h2>
-        <div class="form-grup">
-          <select name="" class="form-control" id="select">
-            <option value="">Selecciones una ubicaciónn</option>
-            <option value="scl">Santiago, Región metropolitana</option>
-            <option value="ccp">Concepción, Región del BioBio</option>
-          </select>
-          <img src="" class="img-fluid" alt="">
-        </div>
+        <h2 class="text-center">Conversor</h2>
+        <input type="number" id="conversor"></input>
+        <button id="convert">Convertir</button>
+        <table class="table table-striped">
+          <tr>
+            <th>USD</th>
+            <th>EURO</th>
+            <th>UTM</th>
+            <th>UF</th> 
+          </tr>
+          <tr>
+            <td id="converted-usd"></td>
+            <td id="converted-eur"></td>
+            <td id="converted-utm"></td>
+            <td id="converted-uf"></td>
+          </tr>
+        </table>
       </div>
-      <div class="col-8" hidden="true" id="escondido" >
-        <h2 id="resumen"></h2>
+      <div class="col-8">
+        <h2 id="resumen">Valores Montarios</h2>
         <table class="table table-striped">
           <tr>
             <td>Dolar</td>
